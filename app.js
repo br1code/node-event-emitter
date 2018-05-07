@@ -7,7 +7,7 @@ emtr.on("someoneSayHello", function() {
 });
 
 emtr.on("someoneSayHello", function() {
-    console.log("Hello too!");
+    console.log("Hey, hello!");
 });
 
 console.log("Hello");
