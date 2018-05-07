@@ -2,7 +2,7 @@ const Emitter = require("./emitter");
 
 var emtr = new Emitter();
 
-emtr.on("someoneSayHello", function() {
+emtr.on("someoneSaidHello", function() {
     console.log("Somewhere, someone said hello.");
 });
 
@@ -11,4 +11,4 @@ emtr.on("someoneSayHello", function() {
 });
 
 console.log("Hello");
-emtr.emit("someoneSayHello");
+emtr.emit("someoneSaidHello");
